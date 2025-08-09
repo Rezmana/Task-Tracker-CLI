@@ -1,11 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
 // Task represents a task with a name and a status.
 
 type Task struct {
+	ID int
 	Title string
 	Status string
 }
